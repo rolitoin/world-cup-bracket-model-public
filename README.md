@@ -4,6 +4,12 @@
 
 Small prediction model for a 2026 World Cup bracket.
 
+## Codexito FC
+
+![Codexito FC mascot](assets/codexito-fc-mascot.png)
+
+Codex FC's bracket agent is **Codexito FC**: a small football analyst mascot with a headset, a clipboard, and just enough confidence to argue a 50/50 knockout pick.
+
 The current workflow:
 
 1. Download a local copy of a relevant bracket spreadsheet.
