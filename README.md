@@ -62,6 +62,8 @@ Notable upset/risk picks:
 
 - `bracket_model.py` - model and workbook writer
 - `world_cup_bracket_model_summary.json` - generated summary of picks and rationale
+- `exports/codex_fc_picks.json` - shareable Codex FC picks export for comparison/scoring
+- `exports/codex_fc_picks.csv` - CSV version of the same picks export
 - `data/score_calibration.json` - historical exact-score patterns from recent World Cups
 - `data/fifa_top20_rankings_2026_04_01.json` - FIFA top-20 ranking data
 - `data/recent_form_adjustments.json` - recent national-team form adjustments

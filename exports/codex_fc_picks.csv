@@ -1,0 +1,105 @@
+entrant,stage,match_id,group,team1,team2,team1_goals,team2_goals,penalty_winner,winner,pick
+Codex FC,group,1,A,México,Sudáfrica,3,0,,México,México 3-0 Sudáfrica
+Codex FC,group,2,A,Corea del Sur,Chequia,1,1,,draw,Corea del Sur 1-1 Chequia
+Codex FC,group,3,A,México,Corea del Sur,3,0,,México,México 3-0 Corea del Sur
+Codex FC,group,4,A,Chequia,Sudáfrica,2,1,,Chequia,Chequia 2-1 Sudáfrica
+Codex FC,group,5,A,Chequia,México,1,2,,México,Chequia 1-2 México
+Codex FC,group,6,A,Sudáfrica,Corea del Sur,0,1,,Corea del Sur,Sudáfrica 0-1 Corea del Sur
+Codex FC,group,7,B,Canadá,Bosnia,1,0,,Canadá,Canadá 1-0 Bosnia
+Codex FC,group,8,B,Catar,Suiza,0,2,,Suiza,Catar 0-2 Suiza
+Codex FC,group,9,B,Canadá,Catar,2,0,,Canadá,Canadá 2-0 Catar
+Codex FC,group,10,B,Suiza,Bosnia,1,0,,Suiza,Suiza 1-0 Bosnia
+Codex FC,group,11,B,Suiza,Canadá,2,1,,Suiza,Suiza 2-1 Canadá
+Codex FC,group,12,B,Bosnia,Catar,1,0,,Bosnia,Bosnia 1-0 Catar
+Codex FC,group,13,C,Brasil,Marruecos,2,0,,Brasil,Brasil 2-0 Marruecos
+Codex FC,group,14,C,Haití,Escocia,0,1,,Escocia,Haití 0-1 Escocia
+Codex FC,group,15,C,Brasil,Haití,2,0,,Brasil,Brasil 2-0 Haití
+Codex FC,group,16,C,Escocia,Marruecos,0,2,,Marruecos,Escocia 0-2 Marruecos
+Codex FC,group,17,C,Escocia,Brasil,0,3,,Brasil,Escocia 0-3 Brasil
+Codex FC,group,18,C,Marruecos,Haití,2,0,,Marruecos,Marruecos 2-0 Haití
+Codex FC,group,19,D,EE.UU.,Paraguay,2,0,,EE.UU.,EE.UU. 2-0 Paraguay
+Codex FC,group,20,D,Australia,Turquía,0,2,,Turquía,Australia 0-2 Turquía
+Codex FC,group,21,D,EE.UU.,Australia,2,0,,EE.UU.,EE.UU. 2-0 Australia
+Codex FC,group,22,D,Turquía,Paraguay,1,0,,Turquía,Turquía 1-0 Paraguay
+Codex FC,group,23,D,Turquía,EE.UU.,0,1,,EE.UU.,Turquía 0-1 EE.UU.
+Codex FC,group,24,D,Paraguay,Australia,1,0,,Paraguay,Paraguay 1-0 Australia
+Codex FC,group,25,E,Alemania,Curazao,2,0,,Alemania,Alemania 2-0 Curazao
+Codex FC,group,26,E,Costa de Marfil,Ecuador,0,1,,Ecuador,Costa de Marfil 0-1 Ecuador
+Codex FC,group,27,E,Alemania,Costa de Marfil,2,0,,Alemania,Alemania 2-0 Costa de Marfil
+Codex FC,group,28,E,Ecuador,Curazao,3,0,,Ecuador,Ecuador 3-0 Curazao
+Codex FC,group,29,E,Ecuador,Alemania,0,2,,Alemania,Ecuador 0-2 Alemania
+Codex FC,group,30,E,Curazao,Costa de Marfil,0,2,,Costa de Marfil,Curazao 0-2 Costa de Marfil
+Codex FC,group,31,F,Países Bajos,Japón,1,1,,draw,Países Bajos 1-1 Japón
+Codex FC,group,32,F,Suecia,Túnez,1,0,,Suecia,Suecia 1-0 Túnez
+Codex FC,group,33,F,Países Bajos,Suecia,2,1,,Países Bajos,Países Bajos 2-1 Suecia
+Codex FC,group,34,F,Túnez,Japón,0,2,,Japón,Túnez 0-2 Japón
+Codex FC,group,35,F,Túnez,Países Bajos,0,3,,Países Bajos,Túnez 0-3 Países Bajos
+Codex FC,group,36,F,Japón,Suecia,2,1,,Japón,Japón 2-1 Suecia
+Codex FC,group,37,G,Bélgica,Egipto,2,0,,Bélgica,Bélgica 2-0 Egipto
+Codex FC,group,38,G,Irán,Nueva Zelanda,2,1,,Irán,Irán 2-1 Nueva Zelanda
+Codex FC,group,39,G,Bélgica,Irán,3,0,,Bélgica,Bélgica 3-0 Irán
+Codex FC,group,40,G,Nueva Zelanda,Egipto,0,1,,Egipto,Nueva Zelanda 0-1 Egipto
+Codex FC,group,41,G,Nueva Zelanda,Bélgica,0,3,,Bélgica,Nueva Zelanda 0-3 Bélgica
+Codex FC,group,42,G,Egipto,Irán,1,0,,Egipto,Egipto 1-0 Irán
+Codex FC,group,43,H,España,Cabo Verde,3,0,,España,España 3-0 Cabo Verde
+Codex FC,group,44,H,Arabia Saudita,Uruguay,0,2,,Uruguay,Arabia Saudita 0-2 Uruguay
+Codex FC,group,45,H,España,Arabia Saudita,2,0,,España,España 2-0 Arabia Saudita
+Codex FC,group,46,H,Uruguay,Cabo Verde,2,0,,Uruguay,Uruguay 2-0 Cabo Verde
+Codex FC,group,47,H,Uruguay,España,1,3,,España,Uruguay 1-3 España
+Codex FC,group,48,H,Cabo Verde,Arabia Saudita,0,1,,Arabia Saudita,Cabo Verde 0-1 Arabia Saudita
+Codex FC,group,49,I,Francia,Senegal,2,0,,Francia,Francia 2-0 Senegal
+Codex FC,group,50,I,Irak,Noruega,0,2,,Noruega,Irak 0-2 Noruega
+Codex FC,group,51,I,Francia,Irak,2,0,,Francia,Francia 2-0 Irak
+Codex FC,group,52,I,Noruega,Senegal,1,0,,Noruega,Noruega 1-0 Senegal
+Codex FC,group,53,I,Noruega,Francia,1,2,,Francia,Noruega 1-2 Francia
+Codex FC,group,54,I,Senegal,Irak,2,0,,Senegal,Senegal 2-0 Irak
+Codex FC,group,55,J,Argentina,Argelia,2,0,,Argentina,Argentina 2-0 Argelia
+Codex FC,group,56,J,Austria,Jordania,2,0,,Austria,Austria 2-0 Jordania
+Codex FC,group,57,J,Argentina,Austria,2,0,,Argentina,Argentina 2-0 Austria
+Codex FC,group,58,J,Jordania,Argelia,0,1,,Argelia,Jordania 0-1 Argelia
+Codex FC,group,59,J,Jordania,Argentina,0,2,,Argentina,Jordania 0-2 Argentina
+Codex FC,group,60,J,Argelia,Austria,0,1,,Austria,Argelia 0-1 Austria
+Codex FC,group,61,K,Portugal,RD Congo,2,0,,Portugal,Portugal 2-0 RD Congo
+Codex FC,group,62,K,Uzbekistán,Colombia,0,3,,Colombia,Uzbekistán 0-3 Colombia
+Codex FC,group,63,K,Portugal,Uzbekistán,3,0,,Portugal,Portugal 3-0 Uzbekistán
+Codex FC,group,64,K,Colombia,RD Congo,3,0,,Colombia,Colombia 3-0 RD Congo
+Codex FC,group,65,K,Colombia,Portugal,1,0,,Colombia,Colombia 1-0 Portugal
+Codex FC,group,66,K,RD Congo,Uzbekistán,1,0,,RD Congo,RD Congo 1-0 Uzbekistán
+Codex FC,group,67,L,Inglaterra,Croacia,3,1,,Inglaterra,Inglaterra 3-1 Croacia
+Codex FC,group,68,L,Ghana,Panamá,1,0,,Ghana,Ghana 1-0 Panamá
+Codex FC,group,69,L,Inglaterra,Ghana,2,0,,Inglaterra,Inglaterra 2-0 Ghana
+Codex FC,group,70,L,Panamá,Croacia,0,2,,Croacia,Panamá 0-2 Croacia
+Codex FC,group,71,L,Panamá,Inglaterra,0,2,,Inglaterra,Panamá 0-2 Inglaterra
+Codex FC,group,72,L,Croacia,Ghana,1,0,,Croacia,Croacia 1-0 Ghana
+Codex FC,round_of_32,73,,Chequia,Canadá,1,1,Canadá,Canadá,Chequia 1-1 Canadá; Canadá on penalties
+Codex FC,round_of_32,74,,Alemania,Paraguay,3,0,,Alemania,Alemania 3-0 Paraguay
+Codex FC,round_of_32,75,,Países Bajos,Marruecos,0,1,,Marruecos,Países Bajos 0-1 Marruecos
+Codex FC,round_of_32,76,,Brasil,Japón,1,0,,Brasil,Brasil 1-0 Japón
+Codex FC,round_of_32,77,,Francia,Suecia,3,0,,Francia,Francia 3-0 Suecia
+Codex FC,round_of_32,78,,Ecuador,Noruega,0,2,,Noruega,Ecuador 0-2 Noruega
+Codex FC,round_of_32,79,,México,Costa de Marfil,2,0,,México,México 2-0 Costa de Marfil
+Codex FC,round_of_32,80,,Inglaterra,Senegal,2,0,,Inglaterra,Inglaterra 2-0 Senegal
+Codex FC,round_of_32,81,,EE.UU.,Bosnia,2,0,,EE.UU.,EE.UU. 2-0 Bosnia
+Codex FC,round_of_32,82,,Bélgica,Corea del Sur,2,0,,Bélgica,Bélgica 2-0 Corea del Sur
+Codex FC,round_of_32,83,,Portugal,Croacia,2,0,,Portugal,Portugal 2-0 Croacia
+Codex FC,round_of_32,84,,España,Austria,3,0,,España,España 3-0 Austria
+Codex FC,round_of_32,85,,Suiza,Argelia,1,0,,Suiza,Suiza 1-0 Argelia
+Codex FC,round_of_32,86,,Argentina,Uruguay,1,0,,Argentina,Argentina 1-0 Uruguay
+Codex FC,round_of_32,87,,Colombia,Ghana,2,0,,Colombia,Colombia 2-0 Ghana
+Codex FC,round_of_32,88,,Turquía,Egipto,2,0,,Turquía,Turquía 2-0 Egipto
+Codex FC,round_of_16,89,,Alemania,Francia,0,1,,Francia,Alemania 0-1 Francia
+Codex FC,round_of_16,90,,Canadá,Marruecos,0,1,,Marruecos,Canadá 0-1 Marruecos
+Codex FC,round_of_16,91,,Brasil,Noruega,1,0,,Brasil,Brasil 1-0 Noruega
+Codex FC,round_of_16,92,,México,Inglaterra,0,1,,Inglaterra,México 0-1 Inglaterra
+Codex FC,round_of_16,93,,Portugal,España,0,1,,España,Portugal 0-1 España
+Codex FC,round_of_16,94,,EE.UU.,Bélgica,1,1,EE.UU.,EE.UU.,EE.UU. 1-1 Bélgica; EE.UU. on penalties
+Codex FC,round_of_16,95,,Argentina,Turquía,1,0,,Argentina,Argentina 1-0 Turquía
+Codex FC,round_of_16,96,,Suiza,Colombia,0,1,,Colombia,Suiza 0-1 Colombia
+Codex FC,quarterfinal,97,,Francia,Marruecos,2,0,,Francia,Francia 2-0 Marruecos
+Codex FC,quarterfinal,98,,España,EE.UU.,2,1,,España,España 2-1 EE.UU.
+Codex FC,quarterfinal,99,,Brasil,Inglaterra,1,1,Inglaterra,Inglaterra,Brasil 1-1 Inglaterra; Inglaterra on penalties
+Codex FC,quarterfinal,100,,Argentina,Colombia,1,0,,Argentina,Argentina 1-0 Colombia
+Codex FC,semifinal,101,,Francia,España,1,1,Francia,Francia,Francia 1-1 España; Francia on penalties
+Codex FC,semifinal,102,,Inglaterra,Argentina,2,1,,Inglaterra,Inglaterra 2-1 Argentina
+Codex FC,third_place,103,,España,Argentina,1,0,,España,España 1-0 Argentina
+Codex FC,final,104,,Francia,Inglaterra,1,0,,Francia,Francia 1-0 Inglaterra
