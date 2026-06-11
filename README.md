@@ -1,5 +1,7 @@
 # World Cup Bracket Model
 
+![World Cup bracket model banner](assets/world-cup-bracket-model-banner.png)
+
 Small prediction model for a 2026 World Cup bracket.
 
 The current workflow:
