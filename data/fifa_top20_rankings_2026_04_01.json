@@ -1,0 +1,107 @@
+{
+  "description": "Top 20 FIFA Coca-Cola Men ranking as of 2026-04-01, extracted from Wikipedia table that links to FIFA ranking update.",
+  "source": "https://en.wikipedia.org/wiki/FIFA_Men%27s_World_Ranking",
+  "official_source": "https://inside.fifa.com/fifa-world-ranking/men",
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "France",
+      "points": 1877.32
+    },
+    {
+      "rank": 2,
+      "team": "Spain",
+      "points": 1876.4
+    },
+    {
+      "rank": 3,
+      "team": "Argentina",
+      "points": 1874.81
+    },
+    {
+      "rank": 4,
+      "team": "England",
+      "points": 1825.97
+    },
+    {
+      "rank": 5,
+      "team": "Portugal",
+      "points": 1763.83
+    },
+    {
+      "rank": 6,
+      "team": "Brazil",
+      "points": 1761.16
+    },
+    {
+      "rank": 7,
+      "team": "Netherlands",
+      "points": 1757.87
+    },
+    {
+      "rank": 8,
+      "team": "Morocco",
+      "points": 1755.87
+    },
+    {
+      "rank": 9,
+      "team": "Belgium",
+      "points": 1734.71
+    },
+    {
+      "rank": 10,
+      "team": "Germany",
+      "points": 1730.37
+    },
+    {
+      "rank": 11,
+      "team": "Croatia",
+      "points": 1717.07
+    },
+    {
+      "rank": 12,
+      "team": "Italy",
+      "points": 1700.37
+    },
+    {
+      "rank": 13,
+      "team": "Colombia",
+      "points": 1693.09
+    },
+    {
+      "rank": 14,
+      "team": "Senegal",
+      "points": 1688.99
+    },
+    {
+      "rank": 15,
+      "team": "Mexico",
+      "points": 1681.03
+    },
+    {
+      "rank": 16,
+      "team": "United States",
+      "points": 1673.13
+    },
+    {
+      "rank": 17,
+      "team": "Uruguay",
+      "points": 1673.07
+    },
+    {
+      "rank": 18,
+      "team": "Japan",
+      "points": 1660.43
+    },
+    {
+      "rank": 19,
+      "team": "Switzerland",
+      "points": 1649.4
+    },
+    {
+      "rank": 20,
+      "team": "Denmark",
+      "points": 1620.81
+    }
+  ]
+}

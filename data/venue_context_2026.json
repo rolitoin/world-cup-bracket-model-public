@@ -1,0 +1,1664 @@
+{
+  "source_notes": [
+    "FIFA World Cup 2026 schedule and venue data extracted from the 2026 FIFA World Cup page, which cites FIFA match schedule and match-centre pages.",
+    "Climate stress is a hand-scored 0.00-0.90 summer burden index informed by 2025 FIFA Club World Cup heat reporting and venue roof/indoor mitigation.",
+    "Travel adjustments are small deterministic penalties based on region changes between group matches; knockout travel is omitted because team paths are uncertain."
+  ],
+  "club_world_cup_context": {
+    "tournament": "2025 FIFA Club World Cup",
+    "dates": "2025-06-14 to 2025-07-13",
+    "use_in_model": "Calibrate direction and scale of summer heat/humidity stress without treating club results as direct national-team strength."
+  },
+  "fixtures": [
+    {
+      "official_match": 1,
+      "date": "June 11, 2026",
+      "time": "1:00 p.m.",
+      "venue": "Estadio Azteca, Mexico City",
+      "city": "Mexico City",
+      "region": "central_mexico",
+      "climate": "altitude_warm",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 1,
+      "home": "México",
+      "away": "Sudáfrica",
+      "travel_adjustments": {
+        "México": 0,
+        "Sudáfrica": 0
+      }
+    },
+    {
+      "official_match": 2,
+      "date": "June 11, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Estadio Akron, Zapopan",
+      "city": "Zapopan",
+      "region": "central_mexico",
+      "climate": "warm_dry",
+      "stress": 0.55,
+      "indoor": false,
+      "local_match": 2,
+      "home": "Corea del Sur",
+      "away": "Chequia",
+      "travel_adjustments": {
+        "Corea del Sur": 0,
+        "Chequia": 0
+      }
+    },
+    {
+      "official_match": 28,
+      "date": "June 18, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Estadio Akron, Zapopan",
+      "city": "Zapopan",
+      "region": "central_mexico",
+      "climate": "warm_dry",
+      "stress": 0.55,
+      "indoor": false,
+      "local_match": 3,
+      "home": "México",
+      "away": "Corea del Sur",
+      "travel_adjustments": {
+        "México": -0.0,
+        "Corea del Sur": -0.0
+      }
+    },
+    {
+      "official_match": 25,
+      "date": "June 18, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true,
+      "local_match": 4,
+      "home": "Chequia",
+      "away": "Sudáfrica",
+      "travel_adjustments": {
+        "Chequia": -0.36,
+        "Sudáfrica": -0.36
+      }
+    },
+    {
+      "official_match": 53,
+      "date": "June 24, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Estadio Azteca, Mexico City",
+      "city": "Mexico City",
+      "region": "central_mexico",
+      "climate": "altitude_warm",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 5,
+      "home": "Chequia",
+      "away": "México",
+      "travel_adjustments": {
+        "Chequia": -0.36,
+        "México": -0.0
+      }
+    },
+    {
+      "official_match": 54,
+      "date": "June 24, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Estadio BBVA, Guadalupe",
+      "city": "Guadalupe",
+      "region": "northern_mexico",
+      "climate": "hot_dry",
+      "stress": 0.75,
+      "indoor": false,
+      "local_match": 6,
+      "home": "Sudáfrica",
+      "away": "Corea del Sur",
+      "travel_adjustments": {
+        "Sudáfrica": -0.36,
+        "Corea del Sur": -0.16
+      }
+    },
+    {
+      "official_match": 3,
+      "date": "June 12, 2026",
+      "time": "3:00 p.m.",
+      "venue": "BMO Field, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false,
+      "local_match": 7,
+      "home": "Canadá",
+      "away": "Bosnia",
+      "travel_adjustments": {
+        "Canadá": 0,
+        "Bosnia": 0
+      }
+    },
+    {
+      "official_match": 8,
+      "date": "June 13, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 8,
+      "home": "Catar",
+      "away": "Suiza",
+      "travel_adjustments": {
+        "Catar": 0,
+        "Suiza": 0
+      }
+    },
+    {
+      "official_match": 27,
+      "date": "June 18, 2026",
+      "time": "3:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true,
+      "local_match": 9,
+      "home": "Canadá",
+      "away": "Catar",
+      "travel_adjustments": {
+        "Canadá": -0.44,
+        "Catar": -0.12
+      }
+    },
+    {
+      "official_match": 26,
+      "date": "June 18, 2026",
+      "time": "12:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true,
+      "local_match": 10,
+      "home": "Suiza",
+      "away": "Bosnia",
+      "travel_adjustments": {
+        "Suiza": -0.0,
+        "Bosnia": -0.48
+      }
+    },
+    {
+      "official_match": 51,
+      "date": "June 24, 2026",
+      "time": "12:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true,
+      "local_match": 11,
+      "home": "Suiza",
+      "away": "Canadá",
+      "travel_adjustments": {
+        "Suiza": -0.12,
+        "Canadá": -0.0
+      }
+    },
+    {
+      "official_match": 52,
+      "date": "June 24, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false,
+      "local_match": 12,
+      "home": "Bosnia",
+      "away": "Catar",
+      "travel_adjustments": {
+        "Bosnia": -0.0,
+        "Catar": -0.12
+      }
+    },
+    {
+      "official_match": 7,
+      "date": "June 13, 2026",
+      "time": "6:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 13,
+      "home": "Brasil",
+      "away": "Marruecos",
+      "travel_adjustments": {
+        "Brasil": 0,
+        "Marruecos": 0
+      }
+    },
+    {
+      "official_match": 5,
+      "date": "June 13, 2026",
+      "time": "9:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false,
+      "local_match": 14,
+      "home": "Haití",
+      "away": "Escocia",
+      "travel_adjustments": {
+        "Haití": 0,
+        "Escocia": 0
+      }
+    },
+    {
+      "official_match": 29,
+      "date": "June 19, 2026",
+      "time": "8:30 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 15,
+      "home": "Brasil",
+      "away": "Haití",
+      "travel_adjustments": {
+        "Brasil": -0.0,
+        "Haití": -0.0
+      }
+    },
+    {
+      "official_match": 30,
+      "date": "June 19, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false,
+      "local_match": 16,
+      "home": "Escocia",
+      "away": "Marruecos",
+      "travel_adjustments": {
+        "Escocia": -0.0,
+        "Marruecos": -0.0
+      }
+    },
+    {
+      "official_match": 49,
+      "date": "June 24, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false,
+      "local_match": 17,
+      "home": "Escocia",
+      "away": "Brasil",
+      "travel_adjustments": {
+        "Escocia": -0.0,
+        "Brasil": -0.0
+      }
+    },
+    {
+      "official_match": 50,
+      "date": "June 24, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true,
+      "local_match": 18,
+      "home": "Marruecos",
+      "away": "Haití",
+      "travel_adjustments": {
+        "Marruecos": -0.0,
+        "Haití": -0.0
+      }
+    },
+    {
+      "official_match": 4,
+      "date": "June 12, 2026",
+      "time": "6:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true,
+      "local_match": 19,
+      "home": "EE.UU.",
+      "away": "Paraguay",
+      "travel_adjustments": {
+        "EE.UU.": 0,
+        "Paraguay": 0
+      }
+    },
+    {
+      "official_match": 6,
+      "date": "June 13, 2026",
+      "time": "9:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true,
+      "local_match": 20,
+      "home": "Australia",
+      "away": "Turquía",
+      "travel_adjustments": {
+        "Australia": 0,
+        "Turquía": 0
+      }
+    },
+    {
+      "official_match": 32,
+      "date": "June 19, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false,
+      "local_match": 21,
+      "home": "EE.UU.",
+      "away": "Australia",
+      "travel_adjustments": {
+        "EE.UU.": -0.0,
+        "Australia": -0.12
+      }
+    },
+    {
+      "official_match": 31,
+      "date": "June 19, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 22,
+      "home": "Turquía",
+      "away": "Paraguay",
+      "travel_adjustments": {
+        "Turquía": -0.12,
+        "Paraguay": -0.0
+      }
+    },
+    {
+      "official_match": 59,
+      "date": "June 25, 2026",
+      "time": "7:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true,
+      "local_match": 23,
+      "home": "Turquía",
+      "away": "EE.UU.",
+      "travel_adjustments": {
+        "Turquía": -0.0,
+        "EE.UU.": -0.0
+      }
+    },
+    {
+      "official_match": 60,
+      "date": "June 25, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 24,
+      "home": "Paraguay",
+      "away": "Australia",
+      "travel_adjustments": {
+        "Paraguay": -0.0,
+        "Australia": -0.0
+      }
+    },
+    {
+      "official_match": 10,
+      "date": "June 14, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true,
+      "local_match": 25,
+      "home": "Alemania",
+      "away": "Curazao",
+      "travel_adjustments": {
+        "Alemania": 0,
+        "Curazao": 0
+      }
+    },
+    {
+      "official_match": 9,
+      "date": "June 14, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 26,
+      "home": "Costa de Marfil",
+      "away": "Ecuador",
+      "travel_adjustments": {
+        "Costa de Marfil": 0,
+        "Ecuador": 0
+      }
+    },
+    {
+      "official_match": 33,
+      "date": "June 20, 2026",
+      "time": "4:00 p.m.",
+      "venue": "BMO Field, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false,
+      "local_match": 27,
+      "home": "Alemania",
+      "away": "Costa de Marfil",
+      "travel_adjustments": {
+        "Alemania": -0.36,
+        "Costa de Marfil": -0.16
+      }
+    },
+    {
+      "official_match": 34,
+      "date": "June 20, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false,
+      "local_match": 28,
+      "home": "Ecuador",
+      "away": "Curazao",
+      "travel_adjustments": {
+        "Ecuador": -0.24,
+        "Curazao": -0.0
+      }
+    },
+    {
+      "official_match": 56,
+      "date": "June 25, 2026",
+      "time": "4:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 29,
+      "home": "Ecuador",
+      "away": "Alemania",
+      "travel_adjustments": {
+        "Ecuador": -0.24,
+        "Alemania": -0.16
+      }
+    },
+    {
+      "official_match": 55,
+      "date": "June 25, 2026",
+      "time": "4:00 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 30,
+      "home": "Curazao",
+      "away": "Costa de Marfil",
+      "travel_adjustments": {
+        "Curazao": -0.24,
+        "Costa de Marfil": -0.16
+      }
+    },
+    {
+      "official_match": 11,
+      "date": "June 14, 2026",
+      "time": "3:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true,
+      "local_match": 31,
+      "home": "Países Bajos",
+      "away": "Japón",
+      "travel_adjustments": {
+        "Países Bajos": 0,
+        "Japón": 0
+      }
+    },
+    {
+      "official_match": 12,
+      "date": "June 14, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Estadio BBVA, Guadalupe",
+      "city": "Guadalupe",
+      "region": "northern_mexico",
+      "climate": "hot_dry",
+      "stress": 0.75,
+      "indoor": false,
+      "local_match": 32,
+      "home": "Suecia",
+      "away": "Túnez",
+      "travel_adjustments": {
+        "Suecia": 0,
+        "Túnez": 0
+      }
+    },
+    {
+      "official_match": 35,
+      "date": "June 20, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true,
+      "local_match": 33,
+      "home": "Países Bajos",
+      "away": "Suecia",
+      "travel_adjustments": {
+        "Países Bajos": -0.0,
+        "Suecia": -0.24
+      }
+    },
+    {
+      "official_match": 36,
+      "date": "June 20, 2026",
+      "time": "10:00 p.m.",
+      "venue": "Estadio BBVA, Guadalupe",
+      "city": "Guadalupe",
+      "region": "northern_mexico",
+      "climate": "hot_dry",
+      "stress": 0.75,
+      "indoor": false,
+      "local_match": 34,
+      "home": "Túnez",
+      "away": "Japón",
+      "travel_adjustments": {
+        "Túnez": -0.0,
+        "Japón": -0.24
+      }
+    },
+    {
+      "official_match": 58,
+      "date": "June 25, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false,
+      "local_match": 35,
+      "home": "Túnez",
+      "away": "Países Bajos",
+      "travel_adjustments": {
+        "Túnez": -0.24,
+        "Países Bajos": -0.0
+      }
+    },
+    {
+      "official_match": 57,
+      "date": "June 25, 2026",
+      "time": "6:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true,
+      "local_match": 36,
+      "home": "Japón",
+      "away": "Suecia",
+      "travel_adjustments": {
+        "Japón": -0.24,
+        "Suecia": -0.0
+      }
+    },
+    {
+      "official_match": 16,
+      "date": "June 15, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false,
+      "local_match": 37,
+      "home": "Bélgica",
+      "away": "Egipto",
+      "travel_adjustments": {
+        "Bélgica": 0,
+        "Egipto": 0
+      }
+    },
+    {
+      "official_match": 15,
+      "date": "June 15, 2026",
+      "time": "6:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true,
+      "local_match": 38,
+      "home": "Irán",
+      "away": "Nueva Zelanda",
+      "travel_adjustments": {
+        "Irán": 0,
+        "Nueva Zelanda": 0
+      }
+    },
+    {
+      "official_match": 39,
+      "date": "June 21, 2026",
+      "time": "12:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true,
+      "local_match": 39,
+      "home": "Bélgica",
+      "away": "Irán",
+      "travel_adjustments": {
+        "Bélgica": -0.0,
+        "Irán": -0.0
+      }
+    },
+    {
+      "official_match": 40,
+      "date": "June 21, 2026",
+      "time": "6:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true,
+      "local_match": 40,
+      "home": "Nueva Zelanda",
+      "away": "Egipto",
+      "travel_adjustments": {
+        "Nueva Zelanda": -0.12,
+        "Egipto": -0.12
+      }
+    },
+    {
+      "official_match": 64,
+      "date": "June 26, 2026",
+      "time": "8:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true,
+      "local_match": 41,
+      "home": "Nueva Zelanda",
+      "away": "Bélgica",
+      "travel_adjustments": {
+        "Nueva Zelanda": -0.0,
+        "Bélgica": -0.12
+      }
+    },
+    {
+      "official_match": 63,
+      "date": "June 26, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false,
+      "local_match": 42,
+      "home": "Egipto",
+      "away": "Irán",
+      "travel_adjustments": {
+        "Egipto": -0.12,
+        "Irán": -0.0
+      }
+    },
+    {
+      "official_match": 14,
+      "date": "June 15, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true,
+      "local_match": 43,
+      "home": "España",
+      "away": "Cabo Verde",
+      "travel_adjustments": {
+        "España": 0,
+        "Cabo Verde": 0
+      }
+    },
+    {
+      "official_match": 13,
+      "date": "June 15, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false,
+      "local_match": 44,
+      "home": "Arabia Saudita",
+      "away": "Uruguay",
+      "travel_adjustments": {
+        "Arabia Saudita": 0,
+        "Uruguay": 0
+      }
+    },
+    {
+      "official_match": 38,
+      "date": "June 21, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true,
+      "local_match": 45,
+      "home": "España",
+      "away": "Arabia Saudita",
+      "travel_adjustments": {
+        "España": -0.0,
+        "Arabia Saudita": -0.0
+      }
+    },
+    {
+      "official_match": 37,
+      "date": "June 21, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false,
+      "local_match": 46,
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "travel_adjustments": {
+        "Uruguay": -0.0,
+        "Cabo Verde": -0.0
+      }
+    },
+    {
+      "official_match": 66,
+      "date": "June 26, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Estadio Akron, Zapopan",
+      "city": "Zapopan",
+      "region": "central_mexico",
+      "climate": "warm_dry",
+      "stress": 0.55,
+      "indoor": false,
+      "local_match": 47,
+      "home": "Uruguay",
+      "away": "España",
+      "travel_adjustments": {
+        "Uruguay": -0.36,
+        "España": -0.36
+      }
+    },
+    {
+      "official_match": 65,
+      "date": "June 26, 2026",
+      "time": "7:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true,
+      "local_match": 48,
+      "home": "Cabo Verde",
+      "away": "Arabia Saudita",
+      "travel_adjustments": {
+        "Cabo Verde": -0.24,
+        "Arabia Saudita": -0.24
+      }
+    },
+    {
+      "official_match": 17,
+      "date": "June 16, 2026",
+      "time": "3:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 49,
+      "home": "Francia",
+      "away": "Senegal",
+      "travel_adjustments": {
+        "Francia": 0,
+        "Senegal": 0
+      }
+    },
+    {
+      "official_match": 18,
+      "date": "June 16, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false,
+      "local_match": 50,
+      "home": "Irak",
+      "away": "Noruega",
+      "travel_adjustments": {
+        "Irak": 0,
+        "Noruega": 0
+      }
+    },
+    {
+      "official_match": 42,
+      "date": "June 22, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 51,
+      "home": "Francia",
+      "away": "Irak",
+      "travel_adjustments": {
+        "Francia": -0.0,
+        "Irak": -0.0
+      }
+    },
+    {
+      "official_match": 41,
+      "date": "June 22, 2026",
+      "time": "8:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 52,
+      "home": "Noruega",
+      "away": "Senegal",
+      "travel_adjustments": {
+        "Noruega": -0.0,
+        "Senegal": -0.0
+      }
+    },
+    {
+      "official_match": 61,
+      "date": "June 26, 2026",
+      "time": "3:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false,
+      "local_match": 53,
+      "home": "Noruega",
+      "away": "Francia",
+      "travel_adjustments": {
+        "Noruega": -0.0,
+        "Francia": -0.0
+      }
+    },
+    {
+      "official_match": 62,
+      "date": "June 26, 2026",
+      "time": "3:00 p.m.",
+      "venue": "BMO Field, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false,
+      "local_match": 54,
+      "home": "Senegal",
+      "away": "Irak",
+      "travel_adjustments": {
+        "Senegal": -0.16,
+        "Irak": -0.16
+      }
+    },
+    {
+      "official_match": 19,
+      "date": "June 16, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false,
+      "local_match": 55,
+      "home": "Argentina",
+      "away": "Argelia",
+      "travel_adjustments": {
+        "Argentina": 0,
+        "Argelia": 0
+      }
+    },
+    {
+      "official_match": 20,
+      "date": "June 16, 2026",
+      "time": "9:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 56,
+      "home": "Austria",
+      "away": "Jordania",
+      "travel_adjustments": {
+        "Austria": 0,
+        "Jordania": 0
+      }
+    },
+    {
+      "official_match": 43,
+      "date": "June 22, 2026",
+      "time": "12:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true,
+      "local_match": 57,
+      "home": "Argentina",
+      "away": "Austria",
+      "travel_adjustments": {
+        "Argentina": -0.0,
+        "Austria": -0.28
+      }
+    },
+    {
+      "official_match": 44,
+      "date": "June 22, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 58,
+      "home": "Jordania",
+      "away": "Argelia",
+      "travel_adjustments": {
+        "Jordania": -0.0,
+        "Argelia": -0.28
+      }
+    },
+    {
+      "official_match": 70,
+      "date": "June 27, 2026",
+      "time": "9:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true,
+      "local_match": 59,
+      "home": "Jordania",
+      "away": "Argentina",
+      "travel_adjustments": {
+        "Jordania": -0.28,
+        "Argentina": -0.0
+      }
+    },
+    {
+      "official_match": 69,
+      "date": "June 27, 2026",
+      "time": "9:00 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false,
+      "local_match": 60,
+      "home": "Argelia",
+      "away": "Austria",
+      "travel_adjustments": {
+        "Argelia": -0.28,
+        "Austria": -0.0
+      }
+    },
+    {
+      "official_match": 23,
+      "date": "June 17, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true,
+      "local_match": 61,
+      "home": "Portugal",
+      "away": "RD Congo",
+      "travel_adjustments": {
+        "Portugal": 0,
+        "RD Congo": 0
+      }
+    },
+    {
+      "official_match": 24,
+      "date": "June 17, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Estadio Azteca, Mexico City",
+      "city": "Mexico City",
+      "region": "central_mexico",
+      "climate": "altitude_warm",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 62,
+      "home": "Uzbekistán",
+      "away": "Colombia",
+      "travel_adjustments": {
+        "Uzbekistán": 0,
+        "Colombia": 0
+      }
+    },
+    {
+      "official_match": 47,
+      "date": "June 23, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true,
+      "local_match": 63,
+      "home": "Portugal",
+      "away": "Uzbekistán",
+      "travel_adjustments": {
+        "Portugal": -0.0,
+        "Uzbekistán": -0.28
+      }
+    },
+    {
+      "official_match": 48,
+      "date": "June 23, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Estadio Akron, Zapopan",
+      "city": "Zapopan",
+      "region": "central_mexico",
+      "climate": "warm_dry",
+      "stress": 0.55,
+      "indoor": false,
+      "local_match": 64,
+      "home": "Colombia",
+      "away": "RD Congo",
+      "travel_adjustments": {
+        "Colombia": -0.0,
+        "RD Congo": -0.28
+      }
+    },
+    {
+      "official_match": 71,
+      "date": "June 27, 2026",
+      "time": "7:30 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false,
+      "local_match": 65,
+      "home": "Colombia",
+      "away": "Portugal",
+      "travel_adjustments": {
+        "Colombia": -0.36,
+        "Portugal": -0.24
+      }
+    },
+    {
+      "official_match": 72,
+      "date": "June 27, 2026",
+      "time": "7:30 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true,
+      "local_match": 66,
+      "home": "RD Congo",
+      "away": "Uzbekistán",
+      "travel_adjustments": {
+        "RD Congo": -0.36,
+        "Uzbekistán": -0.24
+      }
+    },
+    {
+      "official_match": 22,
+      "date": "June 17, 2026",
+      "time": "3:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true,
+      "local_match": 67,
+      "home": "Inglaterra",
+      "away": "Croacia",
+      "travel_adjustments": {
+        "Inglaterra": 0,
+        "Croacia": 0
+      }
+    },
+    {
+      "official_match": 21,
+      "date": "June 17, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Toronto Stadium, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false,
+      "local_match": 68,
+      "home": "Ghana",
+      "away": "Panamá",
+      "travel_adjustments": {
+        "Ghana": 0,
+        "Panamá": 0
+      }
+    },
+    {
+      "official_match": 45,
+      "date": "June 23, 2026",
+      "time": "4:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false,
+      "local_match": 69,
+      "home": "Inglaterra",
+      "away": "Ghana",
+      "travel_adjustments": {
+        "Inglaterra": -0.24,
+        "Ghana": -0.16
+      }
+    },
+    {
+      "official_match": 46,
+      "date": "June 23, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Toronto Stadium, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false,
+      "local_match": 70,
+      "home": "Panamá",
+      "away": "Croacia",
+      "travel_adjustments": {
+        "Panamá": -0.0,
+        "Croacia": -0.36
+      }
+    },
+    {
+      "official_match": 67,
+      "date": "June 27, 2026",
+      "time": "5:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false,
+      "local_match": 71,
+      "home": "Panamá",
+      "away": "Inglaterra",
+      "travel_adjustments": {
+        "Panamá": -0.16,
+        "Inglaterra": -0.0
+      }
+    },
+    {
+      "official_match": 68,
+      "date": "June 27, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false,
+      "local_match": 72,
+      "home": "Croacia",
+      "away": "Ghana",
+      "travel_adjustments": {
+        "Croacia": -0.16,
+        "Ghana": -0.0
+      }
+    }
+  ],
+  "knockout_venues": [
+    {
+      "official_match": 73,
+      "date": "June 28, 2026",
+      "time": "12:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true
+    },
+    {
+      "official_match": 74,
+      "date": "June 29, 2026",
+      "time": "4:30 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false
+    },
+    {
+      "official_match": 75,
+      "date": "June 29, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Estadio BBVA, Guadalupe",
+      "city": "Guadalupe",
+      "region": "northern_mexico",
+      "climate": "hot_dry",
+      "stress": 0.75,
+      "indoor": false
+    },
+    {
+      "official_match": 76,
+      "date": "June 29, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true
+    },
+    {
+      "official_match": 77,
+      "date": "June 30, 2026",
+      "time": "5:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false
+    },
+    {
+      "official_match": 78,
+      "date": "June 30, 2026",
+      "time": "12:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true
+    },
+    {
+      "official_match": 79,
+      "date": "June 30, 2026",
+      "time": "7:00 p.m.",
+      "venue": "Estadio Azteca, Mexico City",
+      "city": "Mexico City",
+      "region": "central_mexico",
+      "climate": "altitude_warm",
+      "stress": 0.7,
+      "indoor": false
+    },
+    {
+      "official_match": 80,
+      "date": "July 1, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true
+    },
+    {
+      "official_match": 81,
+      "date": "July 1, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Levi's Stadium, Santa Clara",
+      "city": "Santa Clara",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.35,
+      "indoor": false
+    },
+    {
+      "official_match": 82,
+      "date": "July 1, 2026",
+      "time": "1:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false
+    },
+    {
+      "official_match": 83,
+      "date": "July 2, 2026",
+      "time": "7:00 p.m.",
+      "venue": "BMO Field, Toronto",
+      "city": "Toronto",
+      "region": "east_canada",
+      "climate": "temperate",
+      "stress": 0.15,
+      "indoor": false
+    },
+    {
+      "official_match": 84,
+      "date": "July 2, 2026",
+      "time": "12:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true
+    },
+    {
+      "official_match": 85,
+      "date": "July 2, 2026",
+      "time": "8:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true
+    },
+    {
+      "official_match": 86,
+      "date": "July 3, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false
+    },
+    {
+      "official_match": 87,
+      "date": "July 3, 2026",
+      "time": "8:30 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false
+    },
+    {
+      "official_match": 88,
+      "date": "July 3, 2026",
+      "time": "1:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true
+    },
+    {
+      "official_match": 89,
+      "date": "July 4, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "city": "Philadelphia",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.7,
+      "indoor": false
+    },
+    {
+      "official_match": 90,
+      "date": "July 4, 2026",
+      "time": "12:00 p.m.",
+      "venue": "NRG Stadium, Houston",
+      "city": "Houston",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.45,
+      "indoor": true
+    },
+    {
+      "official_match": 91,
+      "date": "July 5, 2026",
+      "time": "4:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false
+    },
+    {
+      "official_match": 92,
+      "date": "July 5, 2026",
+      "time": "6:00 p.m.",
+      "venue": "Estadio Azteca, Mexico City",
+      "city": "Mexico City",
+      "region": "central_mexico",
+      "climate": "altitude_warm",
+      "stress": 0.7,
+      "indoor": false
+    },
+    {
+      "official_match": 93,
+      "date": "July 6, 2026",
+      "time": "2:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true
+    },
+    {
+      "official_match": 94,
+      "date": "July 6, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Lumen Field, Seattle",
+      "city": "Seattle",
+      "region": "west_us",
+      "climate": "cool_temperate",
+      "stress": 0.1,
+      "indoor": false
+    },
+    {
+      "official_match": 95,
+      "date": "July 7, 2026",
+      "time": "12:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true
+    },
+    {
+      "official_match": 96,
+      "date": "July 7, 2026",
+      "time": "1:00 p.m.",
+      "venue": "BC Place, Vancouver",
+      "city": "Vancouver",
+      "region": "west_canada",
+      "climate": "cool_temperate",
+      "stress": 0.05,
+      "indoor": true
+    },
+    {
+      "official_match": 97,
+      "date": "July 9, 2026",
+      "time": "4:00 p.m.",
+      "venue": "Gillette Stadium, Foxborough",
+      "city": "Foxborough",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.25,
+      "indoor": false
+    },
+    {
+      "official_match": 98,
+      "date": "July 10, 2026",
+      "time": "12:00 p.m.",
+      "venue": "SoFi Stadium, Inglewood",
+      "city": "Inglewood",
+      "region": "west_us",
+      "climate": "warm_dry",
+      "stress": 0.3,
+      "indoor": true
+    },
+    {
+      "official_match": 99,
+      "date": "July 11, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false
+    },
+    {
+      "official_match": 100,
+      "date": "July 11, 2026",
+      "time": "8:00 p.m.",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "city": "Kansas City",
+      "region": "central_us",
+      "climate": "hot_humid",
+      "stress": 0.65,
+      "indoor": false
+    },
+    {
+      "official_match": 101,
+      "date": "July 14, 2026",
+      "time": "2:00 p.m.",
+      "venue": "AT&T Stadium, Arlington",
+      "city": "Arlington",
+      "region": "central_us",
+      "climate": "hot_mitigated",
+      "stress": 0.35,
+      "indoor": true
+    },
+    {
+      "official_match": 102,
+      "date": "July 15, 2026",
+      "time": "3:00 p.m.",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "city": "Atlanta",
+      "region": "east_us",
+      "climate": "hot_humid_mitigated",
+      "stress": 0.25,
+      "indoor": true
+    },
+    {
+      "official_match": 103,
+      "date": "July 18, 2026",
+      "time": "5:00 p.m.",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "city": "Miami Gardens",
+      "region": "east_us",
+      "climate": "hot_humid",
+      "stress": 0.9,
+      "indoor": false
+    },
+    {
+      "official_match": 104,
+      "date": "July 19, 2026",
+      "time": "3:00 p.m.",
+      "venue": "MetLife Stadium, East Rutherford",
+      "city": "East Rutherford",
+      "region": "east_us",
+      "climate": "temperate_humid",
+      "stress": 0.35,
+      "indoor": false
+    }
+  ]
+}

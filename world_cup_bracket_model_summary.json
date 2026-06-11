@@ -1,0 +1,2934 @@
+{
+  "model": {
+    "base": "Sheet strength from hidden ranking/tiebreaker field",
+    "adjustments": [
+      "fifa_top20_rankings",
+      "recent_results",
+      "squad_age_caps",
+      "coach_adjustment",
+      "venue_climate_travel",
+      "host",
+      "form_expert",
+      "heat_travel",
+      "energy_experience",
+      "upset_profile"
+    ],
+    "third_place_combination": "ABDEFIJL",
+    "monte_carlo_trials": 5000,
+    "score_calibration_matches": 192,
+    "score_calibration_sources": {
+      "2022": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+      "2018": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+      "2014": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup"
+    },
+    "fifa_top20_teams_used": 20,
+    "recent_form_teams_used": 48,
+    "squad_profile_teams_used": 48,
+    "coach_adjustment_teams_used": 48,
+    "venue_context_matches_used": 104
+  },
+  "group_standings": {
+    "A": [
+      "México",
+      "Chequia",
+      "Corea del Sur",
+      "Sudáfrica"
+    ],
+    "B": [
+      "Suiza",
+      "Canadá",
+      "Bosnia",
+      "Catar"
+    ],
+    "C": [
+      "Brasil",
+      "Marruecos",
+      "Escocia",
+      "Haití"
+    ],
+    "D": [
+      "EE.UU.",
+      "Turquía",
+      "Paraguay",
+      "Australia"
+    ],
+    "E": [
+      "Alemania",
+      "Ecuador",
+      "Costa de Marfil",
+      "Curazao"
+    ],
+    "F": [
+      "Países Bajos",
+      "Japón",
+      "Suecia",
+      "Túnez"
+    ],
+    "G": [
+      "Bélgica",
+      "Egipto",
+      "Irán",
+      "Nueva Zelanda"
+    ],
+    "H": [
+      "España",
+      "Uruguay",
+      "Arabia Saudita",
+      "Cabo Verde"
+    ],
+    "I": [
+      "Francia",
+      "Noruega",
+      "Senegal",
+      "Irak"
+    ],
+    "J": [
+      "Argentina",
+      "Austria",
+      "Argelia",
+      "Jordania"
+    ],
+    "K": [
+      "Colombia",
+      "Portugal",
+      "RD Congo",
+      "Uzbekistán"
+    ],
+    "L": [
+      "Inglaterra",
+      "Croacia",
+      "Ghana",
+      "Panamá"
+    ]
+  },
+  "best_thirds": [
+    "Corea del Sur",
+    "Suecia",
+    "Senegal",
+    "Costa de Marfil",
+    "Bosnia",
+    "Paraguay",
+    "Argelia",
+    "Ghana"
+  ],
+  "round_of_32": [
+    {
+      "match": "M73",
+      "team1": "Chequia",
+      "team2": "Canadá"
+    },
+    {
+      "match": "M74",
+      "team1": "Alemania",
+      "team2": "Paraguay"
+    },
+    {
+      "match": "M75",
+      "team1": "Países Bajos",
+      "team2": "Marruecos"
+    },
+    {
+      "match": "M76",
+      "team1": "Brasil",
+      "team2": "Japón"
+    },
+    {
+      "match": "M77",
+      "team1": "Francia",
+      "team2": "Suecia"
+    },
+    {
+      "match": "M78",
+      "team1": "Ecuador",
+      "team2": "Noruega"
+    },
+    {
+      "match": "M79",
+      "team1": "México",
+      "team2": "Costa de Marfil"
+    },
+    {
+      "match": "M80",
+      "team1": "Inglaterra",
+      "team2": "Senegal"
+    },
+    {
+      "match": "M81",
+      "team1": "EE.UU.",
+      "team2": "Bosnia"
+    },
+    {
+      "match": "M82",
+      "team1": "Bélgica",
+      "team2": "Corea del Sur"
+    },
+    {
+      "match": "M83",
+      "team1": "Portugal",
+      "team2": "Croacia"
+    },
+    {
+      "match": "M84",
+      "team1": "España",
+      "team2": "Austria"
+    },
+    {
+      "match": "M85",
+      "team1": "Suiza",
+      "team2": "Argelia"
+    },
+    {
+      "match": "M86",
+      "team1": "Argentina",
+      "team2": "Uruguay"
+    },
+    {
+      "match": "M87",
+      "team1": "Colombia",
+      "team2": "Ghana"
+    },
+    {
+      "match": "M88",
+      "team1": "Turquía",
+      "team2": "Egipto"
+    }
+  ],
+  "knockout": [
+    {
+      "id": 73,
+      "team1": "Chequia",
+      "team2": "Canadá",
+      "g1": 1,
+      "g2": 1,
+      "pen": 2,
+      "winner": "Canadá",
+      "reason": "pens",
+      "expected_goals": {
+        "home": 1.09,
+        "away": 1.19
+      },
+      "probabilities": {
+        "home": 0.332,
+        "draw": 0.285,
+        "away": 0.382
+      }
+    },
+    {
+      "id": 74,
+      "team1": "Alemania",
+      "team2": "Paraguay",
+      "g1": 3,
+      "g2": 0,
+      "pen": null,
+      "winner": "Alemania",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 2.01,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.747,
+        "draw": 0.182,
+        "away": 0.071
+      }
+    },
+    {
+      "id": 75,
+      "team1": "Países Bajos",
+      "team2": "Marruecos",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "Marruecos",
+      "reason": "upset-Marruecos",
+      "expected_goals": {
+        "home": 1.38,
+        "away": 1.1
+      },
+      "probabilities": {
+        "home": 0.431,
+        "draw": 0.268,
+        "away": 0.3
+      }
+    },
+    {
+      "id": 76,
+      "team1": "Brasil",
+      "team2": "Japón",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Brasil",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.58,
+        "away": 0.93
+      },
+      "probabilities": {
+        "home": 0.526,
+        "draw": 0.252,
+        "away": 0.221
+      }
+    },
+    {
+      "id": 77,
+      "team1": "Francia",
+      "team2": "Suecia",
+      "g1": 3,
+      "g2": 0,
+      "pen": null,
+      "winner": "Francia",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 2.05,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.752,
+        "draw": 0.178,
+        "away": 0.07
+      }
+    },
+    {
+      "id": 78,
+      "team1": "Ecuador",
+      "team2": "Noruega",
+      "g1": 0,
+      "g2": 2,
+      "pen": null,
+      "winner": "Noruega",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 0.69,
+        "away": 1.77
+      },
+      "probabilities": {
+        "home": 0.14,
+        "draw": 0.227,
+        "away": 0.633
+      }
+    },
+    {
+      "id": 79,
+      "team1": "México",
+      "team2": "Costa de Marfil",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "México",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.97,
+        "away": 0.43
+      },
+      "probabilities": {
+        "home": 0.743,
+        "draw": 0.186,
+        "away": 0.071
+      }
+    },
+    {
+      "id": 80,
+      "team1": "Inglaterra",
+      "team2": "Senegal",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Inglaterra",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.96,
+        "away": 0.52
+      },
+      "probabilities": {
+        "home": 0.718,
+        "draw": 0.194,
+        "away": 0.088
+      }
+    },
+    {
+      "id": 81,
+      "team1": "EE.UU.",
+      "team2": "Bosnia",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "EE.UU.",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.98,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.744,
+        "draw": 0.185,
+        "away": 0.071
+      }
+    },
+    {
+      "id": 82,
+      "team1": "Bélgica",
+      "team2": "Corea del Sur",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Bélgica",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.81,
+        "away": 0.63
+      },
+      "probabilities": {
+        "home": 0.657,
+        "draw": 0.22,
+        "away": 0.124
+      }
+    },
+    {
+      "id": 83,
+      "team1": "Portugal",
+      "team2": "Croacia",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Portugal",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.81,
+        "away": 0.66
+      },
+      "probabilities": {
+        "home": 0.649,
+        "draw": 0.22,
+        "away": 0.131
+      }
+    },
+    {
+      "id": 84,
+      "team1": "España",
+      "team2": "Austria",
+      "g1": 3,
+      "g2": 0,
+      "pen": null,
+      "winner": "España",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 2.03,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      }
+    },
+    {
+      "id": 85,
+      "team1": "Suiza",
+      "team2": "Argelia",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Suiza",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.59,
+        "away": 0.8
+      },
+      "probabilities": {
+        "home": 0.561,
+        "draw": 0.251,
+        "away": 0.188
+      }
+    },
+    {
+      "id": 86,
+      "team1": "Argentina",
+      "team2": "Uruguay",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Argentina",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.73,
+        "away": 0.76
+      },
+      "probabilities": {
+        "home": 0.606,
+        "draw": 0.234,
+        "away": 0.16
+      }
+    },
+    {
+      "id": 87,
+      "team1": "Colombia",
+      "team2": "Ghana",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Colombia",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.98,
+        "away": 0.43
+      },
+      "probabilities": {
+        "home": 0.743,
+        "draw": 0.186,
+        "away": 0.071
+      }
+    },
+    {
+      "id": 88,
+      "team1": "Turquía",
+      "team2": "Egipto",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Turquía",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.86,
+        "away": 0.53
+      },
+      "probabilities": {
+        "home": 0.694,
+        "draw": 0.207,
+        "away": 0.098
+      }
+    },
+    {
+      "id": 89,
+      "team1": "Alemania",
+      "team2": "Francia",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "Francia",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 0.98,
+        "away": 1.55
+      },
+      "probabilities": {
+        "home": 0.239,
+        "draw": 0.255,
+        "away": 0.506
+      }
+    },
+    {
+      "id": 90,
+      "team1": "Canadá",
+      "team2": "Marruecos",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "Marruecos",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 0.78,
+        "away": 1.63
+      },
+      "probabilities": {
+        "home": 0.178,
+        "draw": 0.246,
+        "away": 0.576
+      }
+    },
+    {
+      "id": 91,
+      "team1": "Brasil",
+      "team2": "Noruega",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Brasil",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.54,
+        "away": 0.98
+      },
+      "probabilities": {
+        "home": 0.504,
+        "draw": 0.256,
+        "away": 0.239
+      }
+    },
+    {
+      "id": 92,
+      "team1": "México",
+      "team2": "Inglaterra",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "Inglaterra",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.01,
+        "away": 1.5
+      },
+      "probabilities": {
+        "home": 0.254,
+        "draw": 0.26,
+        "away": 0.486
+      }
+    },
+    {
+      "id": 93,
+      "team1": "Portugal",
+      "team2": "España",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "España",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.01,
+        "away": 1.53
+      },
+      "probabilities": {
+        "home": 0.252,
+        "draw": 0.257,
+        "away": 0.491
+      }
+    },
+    {
+      "id": 94,
+      "team1": "EE.UU.",
+      "team2": "Bélgica",
+      "g1": 1,
+      "g2": 1,
+      "pen": 1,
+      "winner": "EE.UU.",
+      "reason": "pens",
+      "expected_goals": {
+        "home": 1.25,
+        "away": 1.11
+      },
+      "probabilities": {
+        "home": 0.396,
+        "draw": 0.278,
+        "away": 0.326
+      }
+    },
+    {
+      "id": 95,
+      "team1": "Argentina",
+      "team2": "Turquía",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Argentina",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.72,
+        "away": 0.77
+      },
+      "probabilities": {
+        "home": 0.599,
+        "draw": 0.235,
+        "away": 0.165
+      }
+    },
+    {
+      "id": 96,
+      "team1": "Suiza",
+      "team2": "Colombia",
+      "g1": 0,
+      "g2": 1,
+      "pen": null,
+      "winner": "Colombia",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 0.81,
+        "away": 1.65
+      },
+      "probabilities": {
+        "home": 0.183,
+        "draw": 0.244,
+        "away": 0.573
+      }
+    },
+    {
+      "id": 97,
+      "team1": "Francia",
+      "team2": "Marruecos",
+      "g1": 2,
+      "g2": 0,
+      "pen": null,
+      "winner": "Francia",
+      "reason": "favorite-clear",
+      "expected_goals": {
+        "home": 1.84,
+        "away": 0.66
+      },
+      "probabilities": {
+        "home": 0.655,
+        "draw": 0.217,
+        "away": 0.128
+      }
+    },
+    {
+      "id": 98,
+      "team1": "España",
+      "team2": "EE.UU.",
+      "g1": 2,
+      "g2": 1,
+      "pen": null,
+      "winner": "España",
+      "reason": "favorite-solid",
+      "expected_goals": {
+        "home": 1.7,
+        "away": 0.81
+      },
+      "probabilities": {
+        "home": 0.584,
+        "draw": 0.239,
+        "away": 0.177
+      }
+    },
+    {
+      "id": 99,
+      "team1": "Brasil",
+      "team2": "Inglaterra",
+      "g1": 1,
+      "g2": 1,
+      "pen": 2,
+      "winner": "Inglaterra",
+      "reason": "pens",
+      "expected_goals": {
+        "home": 1.21,
+        "away": 1.22
+      },
+      "probabilities": {
+        "home": 0.36,
+        "draw": 0.275,
+        "away": 0.365
+      }
+    },
+    {
+      "id": 100,
+      "team1": "Argentina",
+      "team2": "Colombia",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Argentina",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.43,
+        "away": 1.08
+      },
+      "probabilities": {
+        "home": 0.449,
+        "draw": 0.265,
+        "away": 0.286
+      }
+    },
+    {
+      "id": 101,
+      "team1": "Francia",
+      "team2": "España",
+      "g1": 1,
+      "g2": 1,
+      "pen": 1,
+      "winner": "Francia",
+      "reason": "pens",
+      "expected_goals": {
+        "home": 1.25,
+        "away": 1.19
+      },
+      "probabilities": {
+        "home": 0.377,
+        "draw": 0.274,
+        "away": 0.349
+      }
+    },
+    {
+      "id": 102,
+      "team1": "Inglaterra",
+      "team2": "Argentina",
+      "g1": 2,
+      "g2": 1,
+      "pen": null,
+      "winner": "Inglaterra",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.31,
+        "away": 1.11
+      },
+      "probabilities": {
+        "home": 0.41,
+        "draw": 0.274,
+        "away": 0.315
+      }
+    },
+    {
+      "id": 103,
+      "team1": "España",
+      "team2": "Argentina",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "España",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.48,
+        "away": 1.06
+      },
+      "probabilities": {
+        "home": 0.468,
+        "draw": 0.261,
+        "away": 0.271
+      }
+    },
+    {
+      "id": 104,
+      "team1": "Francia",
+      "team2": "Inglaterra",
+      "g1": 1,
+      "g2": 0,
+      "pen": null,
+      "winner": "Francia",
+      "reason": "favorite-narrow",
+      "expected_goals": {
+        "home": 1.35,
+        "away": 1.08
+      },
+      "probabilities": {
+        "home": 0.428,
+        "draw": 0.272,
+        "away": 0.301
+      }
+    }
+  ],
+  "champion": "Francia",
+  "third_place": "España",
+  "monte_carlo": {
+    "trials": 5000,
+    "seed": 20260610,
+    "champion": [
+      {
+        "team": "Francia",
+        "probability": 0.183
+      },
+      {
+        "team": "España",
+        "probability": 0.1822
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.1238
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.092
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.0792
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.0702
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.0592
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.0374
+      },
+      {
+        "team": "México",
+        "probability": 0.0344
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.0264
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.0256
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.025
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.018
+      },
+      {
+        "team": "Japón",
+        "probability": 0.0156
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.011
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.0058
+      }
+    ],
+    "final": [
+      {
+        "team": "España",
+        "probability": 0.289
+      },
+      {
+        "team": "Francia",
+        "probability": 0.2792
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.2092
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.1778
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.1582
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.152
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.1264
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.0904
+      },
+      {
+        "team": "México",
+        "probability": 0.0838
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.0734
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.0704
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.0666
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.0528
+      },
+      {
+        "team": "Japón",
+        "probability": 0.0412
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.034
+      },
+      {
+        "team": "Uruguay",
+        "probability": 0.0242
+      }
+    ],
+    "semifinal": [
+      {
+        "team": "España",
+        "probability": 0.451
+      },
+      {
+        "team": "Francia",
+        "probability": 0.4288
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.3276
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.3096
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.305
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.296
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.2296
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.2152
+      },
+      {
+        "team": "México",
+        "probability": 0.1816
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.1788
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.1554
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.151
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.146
+      },
+      {
+        "team": "Japón",
+        "probability": 0.109
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.0886
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.0834
+      }
+    ],
+    "quarterfinal": [
+      {
+        "team": "Francia",
+        "probability": 0.5908
+      },
+      {
+        "team": "España",
+        "probability": 0.5806
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.5282
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.5016
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.4948
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.4764
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.411
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.4086
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.4058
+      },
+      {
+        "team": "México",
+        "probability": 0.3992
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.3748
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.3264
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.3196
+      },
+      {
+        "team": "Japón",
+        "probability": 0.2764
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.2492
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.2444
+      }
+    ],
+    "round_of_16": [
+      {
+        "team": "Francia",
+        "probability": 0.813
+      },
+      {
+        "team": "España",
+        "probability": 0.7774
+      },
+      {
+        "team": "México",
+        "probability": 0.7684
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.7604
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.7326
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.7292
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.726
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.7198
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.6924
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.6636
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.6466
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.6202
+      },
+      {
+        "team": "Suiza",
+        "probability": 0.6064
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.599
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.4814
+      },
+      {
+        "team": "Canadá",
+        "probability": 0.4624
+      }
+    ],
+    "advance_group": [
+      {
+        "team": "España",
+        "probability": 0.977
+      },
+      {
+        "team": "México",
+        "probability": 0.9768
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.9766
+      },
+      {
+        "team": "Bélgica",
+        "probability": 0.9758
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.9744
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.9744
+      },
+      {
+        "team": "Francia",
+        "probability": 0.9642
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.9594
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.949
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.9404
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.9354
+      },
+      {
+        "team": "Suiza",
+        "probability": 0.926
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.9244
+      },
+      {
+        "team": "Uruguay",
+        "probability": 0.9072
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.9068
+      },
+      {
+        "team": "Japón",
+        "probability": 0.899
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.8778
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.8768
+      },
+      {
+        "team": "Canadá",
+        "probability": 0.8726
+      },
+      {
+        "team": "Croacia",
+        "probability": 0.8416
+      }
+    ],
+    "group_winner": [
+      {
+        "team": "Bélgica",
+        "probability": 0.761
+      },
+      {
+        "team": "México",
+        "probability": 0.7238
+      },
+      {
+        "team": "Inglaterra",
+        "probability": 0.7206
+      },
+      {
+        "team": "Argentina",
+        "probability": 0.7164
+      },
+      {
+        "team": "Alemania",
+        "probability": 0.7104
+      },
+      {
+        "team": "España",
+        "probability": 0.7032
+      },
+      {
+        "team": "Francia",
+        "probability": 0.6232
+      },
+      {
+        "team": "Brasil",
+        "probability": 0.6022
+      },
+      {
+        "team": "EE.UU.",
+        "probability": 0.5518
+      },
+      {
+        "team": "Portugal",
+        "probability": 0.5154
+      },
+      {
+        "team": "Suiza",
+        "probability": 0.5
+      },
+      {
+        "team": "Países Bajos",
+        "probability": 0.463
+      },
+      {
+        "team": "Colombia",
+        "probability": 0.4212
+      },
+      {
+        "team": "Japón",
+        "probability": 0.3936
+      },
+      {
+        "team": "Canadá",
+        "probability": 0.341
+      },
+      {
+        "team": "Marruecos",
+        "probability": 0.3254
+      },
+      {
+        "team": "Turquía",
+        "probability": 0.3186
+      },
+      {
+        "team": "Noruega",
+        "probability": 0.2742
+      },
+      {
+        "team": "Uruguay",
+        "probability": 0.241
+      },
+      {
+        "team": "Croacia",
+        "probability": 0.1926
+      }
+    ],
+    "third_place_combinations": [
+      {
+        "team": "BCDEFGIJ",
+        "probability": 0.005
+      },
+      {
+        "team": "ABDEFGIL",
+        "probability": 0.0044
+      },
+      {
+        "team": "ABCDFGIK",
+        "probability": 0.0042
+      },
+      {
+        "team": "ABDEFHIJ",
+        "probability": 0.0042
+      },
+      {
+        "team": "ABDFGHIJ",
+        "probability": 0.0042
+      },
+      {
+        "team": "ABDFGIJL",
+        "probability": 0.0042
+      },
+      {
+        "team": "ABDFGIKL",
+        "probability": 0.0042
+      },
+      {
+        "team": "ABEFGIJK",
+        "probability": 0.0042
+      },
+      {
+        "team": "BCDFGIJL",
+        "probability": 0.0042
+      },
+      {
+        "team": "CDEFGIJL",
+        "probability": 0.0042
+      }
+    ]
+  },
+  "rationale": [
+    {
+      "match": 1,
+      "group": "A",
+      "pick": "México 3-0 Sudáfrica",
+      "reason": "favorite-clear",
+      "rating_diff": 36.4,
+      "venue": "Estadio Azteca, Mexico City",
+      "venue_climate": "altitude_warm",
+      "venue_adjustments": {
+        "México": 0.47,
+        "Sudáfrica": 0.21
+      },
+      "expected_goals": {
+        "home": 2.05,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.752,
+        "draw": 0.178,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 2,
+      "group": "A",
+      "pick": "Corea del Sur 1-1 Chequia",
+      "reason": "draw-balance",
+      "rating_diff": -2.0,
+      "venue": "Estadio Akron, Zapopan",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Corea del Sur": 0.04,
+        "Chequia": -0.17
+      },
+      "expected_goals": {
+        "home": 1.13,
+        "away": 1.26
+      },
+      "probabilities": {
+        "home": 0.329,
+        "draw": 0.277,
+        "away": 0.394
+      }
+    },
+    {
+      "match": 3,
+      "group": "A",
+      "pick": "México 3-0 Corea del Sur",
+      "reason": "favorite-clear",
+      "rating_diff": 21.9,
+      "venue": "Estadio Akron, Zapopan",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "México": 0.37,
+        "Corea del Sur": 0.04
+      },
+      "expected_goals": {
+        "home": 2.05,
+        "away": 0.5
+      },
+      "probabilities": {
+        "home": 0.74,
+        "draw": 0.182,
+        "away": 0.079
+      }
+    },
+    {
+      "match": 4,
+      "group": "A",
+      "pick": "Chequia 2-1 Sudáfrica",
+      "reason": "favorite-clear",
+      "rating_diff": 16.6,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "venue_climate": "hot_humid_mitigated",
+      "venue_adjustments": {
+        "Chequia": -0.43,
+        "Sudáfrica": -0.28
+      },
+      "expected_goals": {
+        "home": 1.8,
+        "away": 0.66
+      },
+      "probabilities": {
+        "home": 0.645,
+        "draw": 0.222,
+        "away": 0.132
+      }
+    },
+    {
+      "match": 5,
+      "group": "A",
+      "pick": "Chequia 1-2 México",
+      "reason": "favorite-clear",
+      "rating_diff": -20.4,
+      "venue": "Estadio Azteca, Mexico City",
+      "venue_climate": "altitude_warm",
+      "venue_adjustments": {
+        "Chequia": -0.57,
+        "México": 0.47
+      },
+      "expected_goals": {
+        "home": 0.55,
+        "away": 2.0
+      },
+      "probabilities": {
+        "home": 0.092,
+        "draw": 0.191,
+        "away": 0.717
+      }
+    },
+    {
+      "match": 6,
+      "group": "A",
+      "pick": "Sudáfrica 0-1 Corea del Sur",
+      "reason": "favorite-solid",
+      "rating_diff": -14.5,
+      "venue": "Estadio BBVA, Guadalupe",
+      "venue_climate": "hot_dry",
+      "venue_adjustments": {
+        "Sudáfrica": -0.13,
+        "Corea del Sur": -0.1
+      },
+      "expected_goals": {
+        "home": 0.73,
+        "away": 1.72
+      },
+      "probabilities": {
+        "home": 0.156,
+        "draw": 0.234,
+        "away": 0.61
+      }
+    },
+    {
+      "match": 7,
+      "group": "B",
+      "pick": "Canadá 1-0 Bosnia",
+      "reason": "favorite-solid",
+      "rating_diff": 8.2,
+      "venue": "BMO Field, Toronto",
+      "venue_climate": "temperate",
+      "venue_adjustments": {
+        "Canadá": -0.02,
+        "Bosnia": -0.02
+      },
+      "expected_goals": {
+        "home": 1.53,
+        "away": 0.97
+      },
+      "probabilities": {
+        "home": 0.504,
+        "draw": 0.257,
+        "away": 0.238
+      }
+    },
+    {
+      "match": 8,
+      "group": "B",
+      "pick": "Catar 0-2 Suiza",
+      "reason": "favorite-clear",
+      "rating_diff": -28.6,
+      "venue": "Levi's Stadium, Santa Clara",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Catar": 0.21,
+        "Suiza": -0.1
+      },
+      "expected_goals": {
+        "home": 0.44,
+        "away": 2.02
+      },
+      "probabilities": {
+        "home": 0.071,
+        "draw": 0.182,
+        "away": 0.748
+      }
+    },
+    {
+      "match": 9,
+      "group": "B",
+      "pick": "Canadá 2-0 Catar",
+      "reason": "favorite-clear",
+      "rating_diff": 23.4,
+      "venue": "BC Place, Vancouver",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Canadá": -0.45,
+        "Catar": -0.09
+      },
+      "expected_goals": {
+        "home": 2.0,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.745,
+        "draw": 0.184,
+        "away": 0.071
+      }
+    },
+    {
+      "match": 10,
+      "group": "B",
+      "pick": "Suiza 1-0 Bosnia",
+      "reason": "favorite-solid",
+      "rating_diff": 13.7,
+      "venue": "SoFi Stadium, Inglewood",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Suiza": -0.09,
+        "Bosnia": -0.53
+      },
+      "expected_goals": {
+        "home": 1.74,
+        "away": 0.78
+      },
+      "probabilities": {
+        "home": 0.602,
+        "draw": 0.233,
+        "away": 0.165
+      }
+    },
+    {
+      "match": 11,
+      "group": "B",
+      "pick": "Suiza 2-1 Canadá",
+      "reason": "favorite-narrow",
+      "rating_diff": 5.0,
+      "venue": "BC Place, Vancouver",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Suiza": -0.14,
+        "Canadá": -0.01
+      },
+      "expected_goals": {
+        "home": 1.44,
+        "away": 1.09
+      },
+      "probabilities": {
+        "home": 0.451,
+        "draw": 0.264,
+        "away": 0.286
+      }
+    },
+    {
+      "match": 12,
+      "group": "B",
+      "pick": "Bosnia 1-0 Catar",
+      "reason": "favorite-solid",
+      "rating_diff": 15.6,
+      "venue": "Lumen Field, Seattle",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Bosnia": -0.02,
+        "Catar": -0.06
+      },
+      "expected_goals": {
+        "home": 1.74,
+        "away": 0.69
+      },
+      "probabilities": {
+        "home": 0.627,
+        "draw": 0.23,
+        "away": 0.143
+      }
+    },
+    {
+      "match": 13,
+      "group": "C",
+      "pick": "Brasil 2-0 Marruecos",
+      "reason": "favorite-solid",
+      "rating_diff": 11.5,
+      "venue": "MetLife Stadium, East Rutherford",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Brasil": 0.21,
+        "Marruecos": 0.18
+      },
+      "expected_goals": {
+        "home": 1.72,
+        "away": 0.89
+      },
+      "probabilities": {
+        "home": 0.57,
+        "draw": 0.237,
+        "away": 0.193
+      }
+    },
+    {
+      "match": 14,
+      "group": "C",
+      "pick": "Haití 0-1 Escocia",
+      "reason": "favorite-solid",
+      "rating_diff": -15.8,
+      "venue": "Gillette Stadium, Foxborough",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Haití": 0.15,
+        "Escocia": -0.13
+      },
+      "expected_goals": {
+        "home": 0.68,
+        "away": 1.74
+      },
+      "probabilities": {
+        "home": 0.142,
+        "draw": 0.23,
+        "away": 0.628
+      }
+    },
+    {
+      "match": 15,
+      "group": "C",
+      "pick": "Brasil 2-0 Haití",
+      "reason": "favorite-clear",
+      "rating_diff": 47.8,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Brasil": 0.42,
+        "Haití": 0.42
+      },
+      "expected_goals": {
+        "home": 2.06,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.753,
+        "draw": 0.177,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 16,
+      "group": "C",
+      "pick": "Escocia 0-2 Marruecos",
+      "reason": "favorite-clear",
+      "rating_diff": -20.6,
+      "venue": "Gillette Stadium, Foxborough",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Escocia": -0.13,
+        "Marruecos": 0.13
+      },
+      "expected_goals": {
+        "home": 0.54,
+        "away": 1.98
+      },
+      "probabilities": {
+        "home": 0.091,
+        "draw": 0.193,
+        "away": 0.716
+      }
+    },
+    {
+      "match": 17,
+      "group": "C",
+      "pick": "Escocia 0-3 Brasil",
+      "reason": "favorite-clear",
+      "rating_diff": -32.8,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Escocia": -0.47,
+        "Brasil": 0.54
+      },
+      "expected_goals": {
+        "home": 0.46,
+        "away": 2.11
+      },
+      "probabilities": {
+        "home": 0.069,
+        "draw": 0.172,
+        "away": 0.758
+      }
+    },
+    {
+      "match": 18,
+      "group": "C",
+      "pick": "Marruecos 2-0 Haití",
+      "reason": "favorite-clear",
+      "rating_diff": 36.3,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "venue_climate": "hot_humid_mitigated",
+      "venue_adjustments": {
+        "Marruecos": 0.13,
+        "Haití": 0.15
+      },
+      "expected_goals": {
+        "home": 2.02,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.748,
+        "draw": 0.181,
+        "away": 0.071
+      }
+    },
+    {
+      "match": 19,
+      "group": "D",
+      "pick": "EE.UU. 2-0 Paraguay",
+      "reason": "favorite-clear",
+      "rating_diff": 18.3,
+      "venue": "SoFi Stadium, Inglewood",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "EE.UU.": 0.09,
+        "Paraguay": 0.16
+      },
+      "expected_goals": {
+        "home": 1.92,
+        "away": 0.63
+      },
+      "probabilities": {
+        "home": 0.681,
+        "draw": 0.206,
+        "away": 0.113
+      }
+    },
+    {
+      "match": 20,
+      "group": "D",
+      "pick": "Australia 0-2 Turquía",
+      "reason": "favorite-clear",
+      "rating_diff": -21.8,
+      "venue": "BC Place, Vancouver",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Australia": 0.02,
+        "Turquía": 0.02
+      },
+      "expected_goals": {
+        "home": 0.49,
+        "away": 2.01
+      },
+      "probabilities": {
+        "home": 0.08,
+        "draw": 0.186,
+        "away": 0.734
+      }
+    },
+    {
+      "match": 21,
+      "group": "D",
+      "pick": "EE.UU. 2-0 Australia",
+      "reason": "favorite-clear",
+      "rating_diff": 28.9,
+      "venue": "Lumen Field, Seattle",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "EE.UU.": 0.03,
+        "Australia": -0.09
+      },
+      "expected_goals": {
+        "home": 2.06,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.753,
+        "draw": 0.177,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 22,
+      "group": "D",
+      "pick": "Turquía 1-0 Paraguay",
+      "reason": "favorite-solid",
+      "rating_diff": 11.2,
+      "venue": "Levi's Stadium, Santa Clara",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Turquía": -0.02,
+        "Paraguay": 0.18
+      },
+      "expected_goals": {
+        "home": 1.67,
+        "away": 0.88
+      },
+      "probabilities": {
+        "home": 0.561,
+        "draw": 0.243,
+        "away": 0.196
+      }
+    },
+    {
+      "match": 23,
+      "group": "D",
+      "pick": "Turquía 0-1 EE.UU.",
+      "reason": "favorite-narrow",
+      "rating_diff": -6.9,
+      "venue": "SoFi Stadium, Inglewood",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Turquía": 0.09,
+        "EE.UU.": 0.09
+      },
+      "expected_goals": {
+        "home": 1.04,
+        "away": 1.54
+      },
+      "probabilities": {
+        "home": 0.257,
+        "draw": 0.256,
+        "away": 0.487
+      }
+    },
+    {
+      "match": 24,
+      "group": "D",
+      "pick": "Paraguay 1-0 Australia",
+      "reason": "favorite-solid",
+      "rating_diff": 10.5,
+      "venue": "Levi's Stadium, Santa Clara",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Paraguay": 0.18,
+        "Australia": 0.1
+      },
+      "expected_goals": {
+        "home": 1.6,
+        "away": 0.88
+      },
+      "probabilities": {
+        "home": 0.543,
+        "draw": 0.251,
+        "away": 0.206
+      }
+    },
+    {
+      "match": 25,
+      "group": "E",
+      "pick": "Alemania 2-0 Curazao",
+      "reason": "favorite-clear",
+      "rating_diff": 45.7,
+      "venue": "NRG Stadium, Houston",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Alemania": -0.14,
+        "Curazao": 0.27
+      },
+      "expected_goals": {
+        "home": 2.04,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.751,
+        "draw": 0.179,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 26,
+      "group": "E",
+      "pick": "Costa de Marfil 0-1 Ecuador",
+      "reason": "favorite-solid",
+      "rating_diff": -9.4,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Costa de Marfil": 0.42,
+        "Ecuador": 0.37
+      },
+      "expected_goals": {
+        "home": 0.92,
+        "away": 1.57
+      },
+      "probabilities": {
+        "home": 0.222,
+        "draw": 0.253,
+        "away": 0.525
+      }
+    },
+    {
+      "match": 27,
+      "group": "E",
+      "pick": "Alemania 2-0 Costa de Marfil",
+      "reason": "favorite-clear",
+      "rating_diff": 29.1,
+      "venue": "BMO Field, Toronto",
+      "venue_climate": "temperate",
+      "venue_adjustments": {
+        "Alemania": -0.4,
+        "Costa de Marfil": -0.07
+      },
+      "expected_goals": {
+        "home": 2.09,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.757,
+        "draw": 0.174,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 28,
+      "group": "E",
+      "pick": "Ecuador 3-0 Curazao",
+      "reason": "favorite-clear",
+      "rating_diff": 25.7,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Ecuador": 0.1,
+        "Curazao": 0.39
+      },
+      "expected_goals": {
+        "home": 2.0,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.746,
+        "draw": 0.183,
+        "away": 0.071
+      }
+    },
+    {
+      "match": 29,
+      "group": "E",
+      "pick": "Ecuador 0-2 Alemania",
+      "reason": "favorite-clear",
+      "rating_diff": -19.8,
+      "venue": "MetLife Stadium, East Rutherford",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Ecuador": -0.06,
+        "Alemania": -0.27
+      },
+      "expected_goals": {
+        "home": 0.58,
+        "away": 2.0
+      },
+      "probabilities": {
+        "home": 0.097,
+        "draw": 0.193,
+        "away": 0.71
+      }
+    },
+    {
+      "match": 30,
+      "group": "E",
+      "pick": "Curazao 0-2 Costa de Marfil",
+      "reason": "favorite-clear",
+      "rating_diff": -16.7,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Curazao": 0.18,
+        "Costa de Marfil": 0.26
+      },
+      "expected_goals": {
+        "home": 0.65,
+        "away": 1.76
+      },
+      "probabilities": {
+        "home": 0.132,
+        "draw": 0.226,
+        "away": 0.642
+      }
+    },
+    {
+      "match": 31,
+      "group": "F",
+      "pick": "Países Bajos 1-1 Japón",
+      "reason": "draw-close",
+      "rating_diff": 1.4,
+      "venue": "AT&T Stadium, Arlington",
+      "venue_climate": "hot_mitigated",
+      "venue_adjustments": {
+        "Países Bajos": -0.13,
+        "Japón": 0.05
+      },
+      "expected_goals": {
+        "home": 1.3,
+        "away": 1.2
+      },
+      "probabilities": {
+        "home": 0.389,
+        "draw": 0.27,
+        "away": 0.341
+      }
+    },
+    {
+      "match": 32,
+      "group": "F",
+      "pick": "Suecia 1-0 Túnez",
+      "reason": "favorite-solid",
+      "rating_diff": 11.4,
+      "venue": "Estadio BBVA, Guadalupe",
+      "venue_climate": "hot_dry",
+      "venue_adjustments": {
+        "Suecia": -0.39,
+        "Túnez": 0.34
+      },
+      "expected_goals": {
+        "home": 1.66,
+        "away": 0.86
+      },
+      "probabilities": {
+        "home": 0.562,
+        "draw": 0.244,
+        "away": 0.194
+      }
+    },
+    {
+      "match": 33,
+      "group": "F",
+      "pick": "Países Bajos 2-1 Suecia",
+      "reason": "favorite-solid",
+      "rating_diff": 14.1,
+      "venue": "NRG Stadium, Houston",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Países Bajos": -0.17,
+        "Suecia": -0.48
+      },
+      "expected_goals": {
+        "home": 1.81,
+        "away": 0.79
+      },
+      "probabilities": {
+        "home": 0.614,
+        "draw": 0.226,
+        "away": 0.16
+      }
+    },
+    {
+      "match": 34,
+      "group": "F",
+      "pick": "Túnez 0-2 Japón",
+      "reason": "favorite-clear",
+      "rating_diff": -23.8,
+      "venue": "Estadio BBVA, Guadalupe",
+      "venue_climate": "hot_dry",
+      "venue_adjustments": {
+        "Túnez": 0.34,
+        "Japón": -0.13
+      },
+      "expected_goals": {
+        "home": 0.46,
+        "away": 2.08
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.175,
+        "away": 0.755
+      }
+    },
+    {
+      "match": 35,
+      "group": "F",
+      "pick": "Túnez 0-3 Países Bajos",
+      "reason": "favorite-clear",
+      "rating_diff": -25.7,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Túnez": 0.05,
+        "Países Bajos": -0.24
+      },
+      "expected_goals": {
+        "home": 0.46,
+        "away": 2.09
+      },
+      "probabilities": {
+        "home": 0.069,
+        "draw": 0.174,
+        "away": 0.757
+      }
+    },
+    {
+      "match": 36,
+      "group": "F",
+      "pick": "Japón 2-1 Suecia",
+      "reason": "favorite-solid",
+      "rating_diff": 12.1,
+      "venue": "AT&T Stadium, Arlington",
+      "venue_climate": "hot_mitigated",
+      "venue_adjustments": {
+        "Japón": -0.19,
+        "Suecia": -0.18
+      },
+      "expected_goals": {
+        "home": 1.73,
+        "away": 0.86
+      },
+      "probabilities": {
+        "home": 0.579,
+        "draw": 0.237,
+        "away": 0.184
+      }
+    },
+    {
+      "match": 37,
+      "group": "G",
+      "pick": "Bélgica 2-0 Egipto",
+      "reason": "favorite-clear",
+      "rating_diff": 24.8,
+      "venue": "Lumen Field, Seattle",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Bélgica": -0.03,
+        "Egipto": 0.05
+      },
+      "expected_goals": {
+        "home": 2.08,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.755,
+        "draw": 0.175,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 38,
+      "group": "G",
+      "pick": "Irán 2-1 Nueva Zelanda",
+      "reason": "favorite-narrow",
+      "rating_diff": 7.3,
+      "venue": "SoFi Stadium, Inglewood",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Irán": 0.14,
+        "Nueva Zelanda": -0.02
+      },
+      "expected_goals": {
+        "home": 1.45,
+        "away": 0.96
+      },
+      "probabilities": {
+        "home": 0.484,
+        "draw": 0.266,
+        "away": 0.25
+      }
+    },
+    {
+      "match": 39,
+      "group": "G",
+      "pick": "Bélgica 3-0 Irán",
+      "reason": "favorite-clear",
+      "rating_diff": 27.4,
+      "venue": "SoFi Stadium, Inglewood",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Bélgica": -0.09,
+        "Irán": 0.14
+      },
+      "expected_goals": {
+        "home": 2.07,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.754,
+        "draw": 0.176,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 40,
+      "group": "G",
+      "pick": "Nueva Zelanda 0-1 Egipto",
+      "reason": "favorite-solid",
+      "rating_diff": -9.9,
+      "venue": "BC Place, Vancouver",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Nueva Zelanda": -0.12,
+        "Egipto": -0.09
+      },
+      "expected_goals": {
+        "home": 0.87,
+        "away": 1.54
+      },
+      "probabilities": {
+        "home": 0.214,
+        "draw": 0.257,
+        "away": 0.529
+      }
+    },
+    {
+      "match": 41,
+      "group": "G",
+      "pick": "Nueva Zelanda 0-3 Bélgica",
+      "reason": "favorite-clear",
+      "rating_diff": -34.6,
+      "venue": "BC Place, Vancouver",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Nueva Zelanda": -0.0,
+        "Bélgica": -0.14
+      },
+      "expected_goals": {
+        "home": 0.45,
+        "away": 2.05
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.178,
+        "away": 0.752
+      }
+    },
+    {
+      "match": 42,
+      "group": "G",
+      "pick": "Egipto 1-0 Irán",
+      "reason": "favorite-narrow",
+      "rating_diff": 2.6,
+      "venue": "Lumen Field, Seattle",
+      "venue_climate": "cool_temperate",
+      "venue_adjustments": {
+        "Egipto": -0.07,
+        "Irán": 0.04
+      },
+      "expected_goals": {
+        "home": 1.24,
+        "away": 1.07
+      },
+      "probabilities": {
+        "home": 0.401,
+        "draw": 0.281,
+        "away": 0.318
+      }
+    },
+    {
+      "match": 43,
+      "group": "H",
+      "pick": "España 3-0 Cabo Verde",
+      "reason": "favorite-clear",
+      "rating_diff": 48.8,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "venue_climate": "hot_humid_mitigated",
+      "venue_adjustments": {
+        "España": 0.06,
+        "Cabo Verde": 0.13
+      },
+      "expected_goals": {
+        "home": 2.08,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.755,
+        "draw": 0.175,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 44,
+      "group": "H",
+      "pick": "Arabia Saudita 0-2 Uruguay",
+      "reason": "favorite-clear",
+      "rating_diff": -23.6,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Arabia Saudita": 0.61,
+        "Uruguay": 0.2
+      },
+      "expected_goals": {
+        "home": 0.45,
+        "away": 2.05
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.178,
+        "away": 0.752
+      }
+    },
+    {
+      "match": 45,
+      "group": "H",
+      "pick": "España 2-0 Arabia Saudita",
+      "reason": "favorite-clear",
+      "rating_diff": 44.0,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "venue_climate": "hot_humid_mitigated",
+      "venue_adjustments": {
+        "España": 0.06,
+        "Arabia Saudita": 0.17
+      },
+      "expected_goals": {
+        "home": 2.09,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.756,
+        "draw": 0.174,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 46,
+      "group": "H",
+      "pick": "Uruguay 2-0 Cabo Verde",
+      "reason": "favorite-clear",
+      "rating_diff": 28.6,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Uruguay": 0.2,
+        "Cabo Verde": 0.47
+      },
+      "expected_goals": {
+        "home": 2.04,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 47,
+      "group": "H",
+      "pick": "Uruguay 1-3 España",
+      "reason": "favorite-clear",
+      "rating_diff": -20.1,
+      "venue": "Estadio Akron, Zapopan",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Uruguay": -0.24,
+        "España": -0.24
+      },
+      "expected_goals": {
+        "home": 0.58,
+        "away": 2.04
+      },
+      "probabilities": {
+        "home": 0.094,
+        "draw": 0.189,
+        "away": 0.717
+      }
+    },
+    {
+      "match": 48,
+      "group": "H",
+      "pick": "Cabo Verde 0-1 Arabia Saudita",
+      "reason": "favorite-narrow",
+      "rating_diff": -4.9,
+      "venue": "NRG Stadium, Houston",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Cabo Verde": -0.0,
+        "Arabia Saudita": 0.06
+      },
+      "expected_goals": {
+        "home": 1.04,
+        "away": 1.37
+      },
+      "probabilities": {
+        "home": 0.286,
+        "draw": 0.272,
+        "away": 0.442
+      }
+    },
+    {
+      "match": 49,
+      "group": "I",
+      "pick": "Francia 2-0 Senegal",
+      "reason": "favorite-clear",
+      "rating_diff": 24.0,
+      "venue": "MetLife Stadium, East Rutherford",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Francia": 0.0,
+        "Senegal": 0.21
+      },
+      "expected_goals": {
+        "home": 2.14,
+        "away": 0.47
+      },
+      "probabilities": {
+        "home": 0.762,
+        "draw": 0.169,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 50,
+      "group": "I",
+      "pick": "Irak 0-2 Noruega",
+      "reason": "favorite-clear",
+      "rating_diff": -33.7,
+      "venue": "Gillette Stadium, Foxborough",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Irak": 0.15,
+        "Noruega": -0.15
+      },
+      "expected_goals": {
+        "home": 0.45,
+        "away": 2.06
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.177,
+        "away": 0.754
+      }
+    },
+    {
+      "match": 51,
+      "group": "I",
+      "pick": "Francia 2-0 Irak",
+      "reason": "favorite-clear",
+      "rating_diff": 45.3,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Francia": 0.0,
+        "Irak": 0.42
+      },
+      "expected_goals": {
+        "home": 2.09,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.756,
+        "draw": 0.174,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 52,
+      "group": "I",
+      "pick": "Noruega 1-0 Senegal",
+      "reason": "favorite-solid",
+      "rating_diff": 12.0,
+      "venue": "MetLife Stadium, East Rutherford",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Noruega": -0.21,
+        "Senegal": 0.21
+      },
+      "expected_goals": {
+        "home": 1.72,
+        "away": 0.86
+      },
+      "probabilities": {
+        "home": 0.577,
+        "draw": 0.237,
+        "away": 0.186
+      }
+    },
+    {
+      "match": 53,
+      "group": "I",
+      "pick": "Noruega 1-2 Francia",
+      "reason": "favorite-solid",
+      "rating_diff": -11.9,
+      "venue": "Gillette Stadium, Foxborough",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Noruega": -0.15,
+        "Francia": 0.0
+      },
+      "expected_goals": {
+        "home": 0.89,
+        "away": 1.76
+      },
+      "probabilities": {
+        "home": 0.188,
+        "draw": 0.233,
+        "away": 0.579
+      }
+    },
+    {
+      "match": 54,
+      "group": "I",
+      "pick": "Senegal 2-0 Irak",
+      "reason": "favorite-clear",
+      "rating_diff": 21.5,
+      "venue": "BMO Field, Toronto",
+      "venue_climate": "temperate",
+      "venue_adjustments": {
+        "Senegal": -0.07,
+        "Irak": -0.07
+      },
+      "expected_goals": {
+        "home": 1.98,
+        "away": 0.5
+      },
+      "probabilities": {
+        "home": 0.726,
+        "draw": 0.191,
+        "away": 0.083
+      }
+    },
+    {
+      "match": 55,
+      "group": "J",
+      "pick": "Argentina 2-0 Argelia",
+      "reason": "favorite-clear",
+      "rating_diff": 28.4,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Argentina": 0.1,
+        "Argelia": 0.29
+      },
+      "expected_goals": {
+        "home": 2.1,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.758,
+        "draw": 0.173,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 56,
+      "group": "J",
+      "pick": "Austria 2-0 Jordania",
+      "reason": "favorite-clear",
+      "rating_diff": 23.5,
+      "venue": "Levi's Stadium, Santa Clara",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Austria": -0.1,
+        "Jordania": 0.18
+      },
+      "expected_goals": {
+        "home": 2.01,
+        "away": 0.44
+      },
+      "probabilities": {
+        "home": 0.747,
+        "draw": 0.182,
+        "away": 0.071
+      }
+    },
+    {
+      "match": 57,
+      "group": "J",
+      "pick": "Argentina 2-0 Austria",
+      "reason": "favorite-clear",
+      "rating_diff": 20.9,
+      "venue": "AT&T Stadium, Arlington",
+      "venue_climate": "hot_mitigated",
+      "venue_adjustments": {
+        "Argentina": 0.05,
+        "Austria": -0.39
+      },
+      "expected_goals": {
+        "home": 2.04,
+        "away": 0.54
+      },
+      "probabilities": {
+        "home": 0.727,
+        "draw": 0.186,
+        "away": 0.087
+      }
+    },
+    {
+      "match": 58,
+      "group": "J",
+      "pick": "Jordania 0-1 Argelia",
+      "reason": "favorite-solid",
+      "rating_diff": -15.4,
+      "venue": "Levi's Stadium, Santa Clara",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Jordania": 0.18,
+        "Argelia": -0.12
+      },
+      "expected_goals": {
+        "home": 0.69,
+        "away": 1.73
+      },
+      "probabilities": {
+        "home": 0.146,
+        "draw": 0.232,
+        "away": 0.622
+      }
+    },
+    {
+      "match": 59,
+      "group": "J",
+      "pick": "Jordania 0-2 Argentina",
+      "reason": "favorite-clear",
+      "rating_diff": -44.4,
+      "venue": "AT&T Stadium, Arlington",
+      "venue_climate": "hot_mitigated",
+      "venue_adjustments": {
+        "Jordania": -0.1,
+        "Argentina": 0.05
+      },
+      "expected_goals": {
+        "home": 0.45,
+        "away": 2.06
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.177,
+        "away": 0.753
+      }
+    },
+    {
+      "match": 60,
+      "group": "J",
+      "pick": "Argelia 0-1 Austria",
+      "reason": "favorite-narrow",
+      "rating_diff": -7.9,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Argelia": 0.01,
+        "Austria": -0.2
+      },
+      "expected_goals": {
+        "home": 0.98,
+        "away": 1.53
+      },
+      "probabilities": {
+        "home": 0.242,
+        "draw": 0.258,
+        "away": 0.5
+      }
+    },
+    {
+      "match": 61,
+      "group": "K",
+      "pick": "Portugal 2-0 RD Congo",
+      "reason": "favorite-clear",
+      "rating_diff": 33.0,
+      "venue": "NRG Stadium, Houston",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Portugal": 0.1,
+        "RD Congo": 0.27
+      },
+      "expected_goals": {
+        "home": 2.09,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.756,
+        "draw": 0.174,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 62,
+      "group": "K",
+      "pick": "Uzbekistán 0-3 Colombia",
+      "reason": "favorite-clear",
+      "rating_diff": -38.0,
+      "venue": "Estadio Azteca, Mexico City",
+      "venue_climate": "altitude_warm",
+      "venue_adjustments": {
+        "Uzbekistán": 0.16,
+        "Colombia": 0.42
+      },
+      "expected_goals": {
+        "home": 0.45,
+        "away": 2.05
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.178,
+        "away": 0.752
+      }
+    },
+    {
+      "match": 63,
+      "group": "K",
+      "pick": "Portugal 3-0 Uzbekistán",
+      "reason": "favorite-clear",
+      "rating_diff": 41.1,
+      "venue": "NRG Stadium, Houston",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Portugal": 0.1,
+        "Uzbekistán": -0.18
+      },
+      "expected_goals": {
+        "home": 2.06,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.754,
+        "draw": 0.177,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 64,
+      "group": "K",
+      "pick": "Colombia 3-0 RD Congo",
+      "reason": "favorite-clear",
+      "rating_diff": 30.5,
+      "venue": "Estadio Akron, Zapopan",
+      "venue_climate": "warm_dry",
+      "venue_adjustments": {
+        "Colombia": 0.33,
+        "RD Congo": 0.05
+      },
+      "expected_goals": {
+        "home": 2.07,
+        "away": 0.45
+      },
+      "probabilities": {
+        "home": 0.754,
+        "draw": 0.176,
+        "away": 0.07
+      }
+    },
+    {
+      "match": 65,
+      "group": "K",
+      "pick": "Colombia 1-0 Portugal",
+      "reason": "upset-Colombia",
+      "rating_diff": -2.8,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Colombia": 0.18,
+        "Portugal": -0.04
+      },
+      "expected_goals": {
+        "home": 1.16,
+        "away": 1.35
+      },
+      "probabilities": {
+        "home": 0.319,
+        "draw": 0.268,
+        "away": 0.413
+      }
+    },
+    {
+      "match": 66,
+      "group": "K",
+      "pick": "RD Congo 1-0 Uzbekistán",
+      "reason": "favorite-narrow",
+      "rating_diff": 7.5,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "venue_climate": "hot_humid_mitigated",
+      "venue_adjustments": {
+        "RD Congo": -0.21,
+        "Uzbekistán": -0.18
+      },
+      "expected_goals": {
+        "home": 1.46,
+        "away": 0.95
+      },
+      "probabilities": {
+        "home": 0.488,
+        "draw": 0.265,
+        "away": 0.247
+      }
+    },
+    {
+      "match": 67,
+      "group": "L",
+      "pick": "Inglaterra 3-1 Croacia",
+      "reason": "favorite-clear",
+      "rating_diff": 21.8,
+      "venue": "AT&T Stadium, Arlington",
+      "venue_climate": "hot_mitigated",
+      "venue_adjustments": {
+        "Inglaterra": -0.13,
+        "Croacia": -0.05
+      },
+      "expected_goals": {
+        "home": 2.09,
+        "away": 0.51
+      },
+      "probabilities": {
+        "home": 0.743,
+        "draw": 0.178,
+        "away": 0.079
+      }
+    },
+    {
+      "match": 68,
+      "group": "L",
+      "pick": "Ghana 1-0 Panamá",
+      "reason": "favorite-solid",
+      "rating_diff": 8.2,
+      "venue": "Toronto Stadium, Toronto",
+      "venue_climate": "temperate",
+      "venue_adjustments": {
+        "Ghana": 0.09,
+        "Panamá": 0.09
+      },
+      "expected_goals": {
+        "home": 1.49,
+        "away": 0.94
+      },
+      "probabilities": {
+        "home": 0.5,
+        "draw": 0.262,
+        "away": 0.237
+      }
+    },
+    {
+      "match": 69,
+      "group": "L",
+      "pick": "Inglaterra 2-0 Ghana",
+      "reason": "favorite-clear",
+      "rating_diff": 36.2,
+      "venue": "Gillette Stadium, Foxborough",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Inglaterra": -0.33,
+        "Ghana": -0.01
+      },
+      "expected_goals": {
+        "home": 2.1,
+        "away": 0.46
+      },
+      "probabilities": {
+        "home": 0.758,
+        "draw": 0.173,
+        "away": 0.069
+      }
+    },
+    {
+      "match": 70,
+      "group": "L",
+      "pick": "Panamá 0-2 Croacia",
+      "reason": "favorite-clear",
+      "rating_diff": -22.3,
+      "venue": "Toronto Stadium, Toronto",
+      "venue_climate": "temperate",
+      "venue_adjustments": {
+        "Panamá": 0.09,
+        "Croacia": -0.38
+      },
+      "expected_goals": {
+        "home": 0.47,
+        "away": 2.0
+      },
+      "probabilities": {
+        "home": 0.077,
+        "draw": 0.185,
+        "away": 0.738
+      }
+    },
+    {
+      "match": 71,
+      "group": "L",
+      "pick": "Panamá 0-2 Inglaterra",
+      "reason": "favorite-clear",
+      "rating_diff": -44.5,
+      "venue": "MetLife Stadium, East Rutherford",
+      "venue_climate": "temperate_humid",
+      "venue_adjustments": {
+        "Panamá": 0.05,
+        "Inglaterra": -0.13
+      },
+      "expected_goals": {
+        "home": 0.46,
+        "away": 2.08
+      },
+      "probabilities": {
+        "home": 0.07,
+        "draw": 0.175,
+        "away": 0.755
+      }
+    },
+    {
+      "match": 72,
+      "group": "L",
+      "pick": "Croacia 1-0 Ghana",
+      "reason": "favorite-solid",
+      "rating_diff": 13.9,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "venue_climate": "hot_humid",
+      "venue_adjustments": {
+        "Croacia": -0.27,
+        "Ghana": 0.42
+      },
+      "expected_goals": {
+        "home": 1.73,
+        "away": 0.77
+      },
+      "probabilities": {
+        "home": 0.603,
+        "draw": 0.234,
+        "away": 0.163
+      }
+    }
+  ]
+}
